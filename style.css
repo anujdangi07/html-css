@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("Anuj.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+
+}
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: chartreuse;
+    padding: 5px 20px;
+    border: 1px solid chartreuse;
+    transition: 0.6 ease;
+}
+
+ul li a:hover{
+    background-color: chartreuse;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: chartreuse;
+    color: black;
+
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    max-height: 100px;
+
+}
+.main{
+    max-width: 1600px;
+    margine: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title{
+    color: chartreuse;
+    font-size: 50px;
+
+}
+.button{
+    position: absolute;
+    top: 65%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+.btn{
+    border: 1px solid chartreuse;
+    padding: 10px 30px;
+    color: chartreuse;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: chartreuse;
+    color: #000;
+}
